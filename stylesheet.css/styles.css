@@ -1,0 +1,15 @@
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Work Sans';
+    color: #131313;
+}
+
+nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style: none;
+}
