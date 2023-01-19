@@ -6,7 +6,9 @@
   .main{
     font-family: 'Work Sans';
   }
-  
+  .facts-container{
+    font-family: 'Work Sans';
+  }
   /* header styles */
 
 /* nav styles */
@@ -145,6 +147,10 @@ img{
     border-radius: 8px;
     border: 0px;
 }
+/* feature 2 start */
+.feature2-parent{
+    margin-left: 240px;
+}
 .feature2-heading{
     width: 468px;
     height: 106px;
@@ -169,6 +175,7 @@ img{
     border-radius: 8px;
     width: 586px;
 }
+
 .feature2-infohead1{ 
     font-weight: 600;
     font-size: 20px; 
@@ -197,10 +204,105 @@ img{
     color: #FFFFFF;
     padding: 46px 42px;
     position: absolute;
-    top: 2750px;
+    top: 2904px;
     width: 342px;
 height: 200px;
 left: 880px;
 }
+/* facts part styles */
+.facts-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 240px;
+    margin-top: 130px;
+    width: 258px;
+}
+.facts-paragraph{
+    width: 542px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 240px;
+    margin-top: 24px;
+}
+/* added */
+.facts{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-right: 124.7px;
+    /* gap: 124px; */
+    
+
+}
+.fact-logo{
+    padding: 26px 98px 0px 97px;
+}
+
+.facts-descrip{
+    color: #737272;
+    font-weight: 600;
+    font-size: 20px;
+}
+.facts-container{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 290px;
+    margin-right: 176px;
+    /* gap: 86px; */
 
 
+}
+.facts-title{
+    
+    color: #151414;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+/* sponsor section styles */
+.sponsor-container{
+    width: 1920px;
+}
+.sponsor-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsor-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+}
+.sponsor-logos{
+    display: flex;
+    margin-left: 240px;
+    margin-top: 50px;
+}
+.logo{
+   margin-right: 100px;
+}
+
+/* footer section */
+footer{
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    margin-left: 269px;
+    margin-bottom: 207px;
+}
+.footer-paragraph{
+    /* text-align: center; */
+    padding-left: 381px;
+    padding-top: 50px;
+    color: #727272;
+    margin-top: 130px;
+   
+    height: 100px;
+    /* background: #FFF4E7; */
+    border-radius: 8px;
+}
